@@ -41,7 +41,7 @@ jobs:
       - name: Install Dependencies
         run: yarn install --immutable
 
-      - name: ESLint & Prettier
+      - name: Prettier
         run: yarn run lint
 
   push:
