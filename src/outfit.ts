@@ -85,7 +85,11 @@ export function chooseQuestOutfit(
     weapons,
     backs,
     { familiar },
-    ifHave("famequip", famEquip ?? $item`amulet coin`, () => famEquip !== undefined),
+    ifHave(
+      "famequip",
+      famEquip ?? $item`amulet coin`,
+      () => famEquip !== undefined
+    ),
     ifHave(
       "pants",
       $item`designer sweatpants`,

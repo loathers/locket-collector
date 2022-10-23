@@ -7,6 +7,7 @@
   "scripts": {
     "build": "node build.mjs",
     "format": "prettier --write src/**/*.ts *.{mjs,js,json}",
+    "lint": "prettier --check src/**/*.ts",
     "watch": "node build.mjs --watch",
     "install-mafia": "create-kolmafia-script --install"
   },
