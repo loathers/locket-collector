@@ -75,8 +75,7 @@ export function chooseQuestOutfit(
         get("questPAGhost") === "unstarted" &&
         get("nextParanormalActivity") <= totalTurnsPlayed() &&
         sober()
-    ),
-    ifHave("back", $item`Time Cloak`)
+    )
   );
 
   const spec = mergeSpecs(
